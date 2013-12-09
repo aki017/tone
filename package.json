@@ -1,0 +1,16 @@
+{
+  "name": "tonw",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "dependencies": {
+    "express": "3.4.0",
+    "jade": "*",
+    "connect-assets": "*",
+    "socket.io": "~0.9.16",
+    "less": "~1.5.1",
+    "coffee-script": "~1.6.3"
+  }
+}

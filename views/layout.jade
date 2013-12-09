@@ -1,0 +1,17 @@
+doctype 5
+html
+  head
+    meta(name="viewport" content="width=640px, user-scalable=0")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    link(rel="apple-touch-icon" href="icon.png")
+    link(rel="icon" type="image/png" href="icon.png")
+    title Tone
+    script(src='//code.jquery.com/jquery-1.10.2.min.js')
+    != css('style')
+    != js('waapisim')
+    != js('faminoise_dsp')
+    != js('script')
+    != js('createjs-2013.09.25.min.js')
+    script(src='/socket.io/socket.io.js')
+  body
+    block content
